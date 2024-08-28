@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section{
+    position: relative;
+    background-image: url(petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+   
+
+}
+nav{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+
+}
+
+#nav-content {
+    
+    display: flex;
+    padding-right: 2em;
+}
+
+#nav-content div:hover{
+    transition: 100ms;
+    transform: scale(1.01);
+}
+
+.order{
+    padding-right: 2em;
+    color: rgba(247, 247, 247, 0.884);
+    font-size: medium;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.order:hover{
+    color: rgb(106, 50, 50);
+    transition: 100ms;
+}
+
+
+
+.name{
+    padding-left: 11em;
+}
+
+#big{
+    font-size:35px;
+    font-family: Kalnia Glaze;
+    color: rgba(222, 184, 135, 0.8);
+
+}
+#small{
+    font-size: larger;
+    text-align: center;
+    color: rgba(222, 184, 135, 0.8);
+}
+
+.brief{
+    display: flex;
+    padding-top: 3em;
+}
+
+.about{
+    position: absolute;
+    width: 40%;
+    top: 10em;
+    right: 2em;
+    background-color: rgba(240, 248, 255, 0.11);
+    border-radius: 5px;
+ 
+}
+
+.about h1{
+    font-size: 45px;
+    font-weight: 550;
+    color:  rgb(94, 64, 24);
+    padding-bottom: 0.8em;
+}
+
+.about p{
+    color: white;
+    font-size: x-large;
+    line-height: 1.2em;
+    font-weight: bolder;
+}
+
+.food{
+    padding: 5em;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    position: absolute;
+    top: 10em;
+    left: 2em;
+}
+
+.food-image{
+    width: 22em;
+    height: 15em;
+    border-radius: 5px;
+    filter: grayscale(1);
+    opacity: 0.85;
+}
+
+.food-image:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    box-shadow: black 5px, 5px, 5px;
+}
+
+.food-div:hover{
+    transition: 0.5s ease;
+    transform: scale(1.05);
+}
+
+
+footer{
+    padding: 3em;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    color: grey;
+}
+#connect{
+    display: flex;
+    padding-right: 10px;
+    align-content: baseline;
+}
+
+.icons{
+    padding-right: 10px;
+    width: 30px;
+}
+
+.foot-link{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.link a{
+    color: whitesmoke;
+}
+
+.link a:hover{
+    color: rgba(0, 0, 255, 0.788);
+    transition: 100ms ease;
+}
